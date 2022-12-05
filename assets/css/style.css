@@ -7,7 +7,7 @@
 
 header {
     background-color: #3d3d3d;
-    background-image: url('assets/images/home.jpg');
+    background-image: url('../images/home.jpg');
     height:800px;
     background-position: center;
     background-repeat: no-repeat; 
@@ -61,5 +61,5 @@ h1{
 #text-logo{
     font-size: 350%;
     text-align: center;
-    margin-top: 550px;
+    margin-top: 600px;
 }
