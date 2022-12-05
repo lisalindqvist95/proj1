@@ -6,12 +6,27 @@
 }
 
 header {
-    background-color: grey;
-    background-image: url('img/home.jpg');
+    background-color: #3d3d3d;
+    background-image: url('assets/images/home.jpg');
     height:800px;
     background-position: center;
     background-repeat: no-repeat; 
     background-size: cover;
+}
+
+.logo img{
+    height: 90px;
+    padding: 10px;
+    float:left;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
+#menu{
+    letter-spacing: 1px;
+    list-style-type: none;
+    font-size: 100%;
 }
 
 nav ul{
@@ -21,7 +36,7 @@ nav ul{
 
 nav li{
     display: inline-block;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Merriweather, Arial, sans-serif;
     margin-top: 30px;
     padding-left:30px;
 }
@@ -34,6 +49,7 @@ a{
 a:hover{
     color:#ff7803;
 }
+
 h1{
     font-family: Montserrat;
     text-transform: uppercase;
