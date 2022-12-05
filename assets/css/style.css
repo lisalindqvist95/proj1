@@ -63,3 +63,66 @@ h1{
     text-align: center;
     margin-top: 600px;
 }
+
+#tour{
+    background-color: black;
+    background-image: url('../images/tour.jpg');
+    height:800px;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+  }
+  
+.tour-dates {
+  padding-top:200px;
+  margin: auto;
+  width: 50%;
+  }
+  
+h2{
+    font-family: Merriweather, Arial, sans-serif;
+    border-bottom: 3px solid #FFF;
+    font-size: 60px;
+  }
+  
+th{
+    text-align: left;
+    font-size: 40px;
+    text-decoration: none;
+    min-width: 150px;
+  }
+  
+td{
+    text-align: left;
+    font-size: 20px;
+  }
+  
+h2, th, td{
+  font-family: Merriweather, Arial, sans-serif;
+  text-transform: uppercase;
+  color:#fff;
+  }
+  
+#padding-left {
+  padding-left:65px;
+  }
+  
+#venue{
+    font-style: italic;
+  }
+  
+.button {
+    width:250px;
+    float:right;
+    margin-top:20px;
+  }
+  
+  .ticket-link{
+    font-family: Merriweather, Arial, sans-serif;
+    font-size: 15px;
+    color: #FFF;
+    float:right;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  
