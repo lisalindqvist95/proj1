@@ -125,4 +125,90 @@ h2, th, td{
     text-transform: uppercase;
     text-decoration: none;
   }
+
+  #merch{
+    background-color: blue;
+    background-image: url('../images/merch.jpg');
+    height:800px;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+  }
+  
+  .gallery {
+  padding-top:200px;
+  margin: auto;
+  width: 90%;
+  }
+  
+  .gallery img{
+    width:200px;
+    display: inline-block;
+  }
+  #about{
+    background-color: green;
+    height: 50px;
+  }
+  
+  #contact{
+    background-color: blue;
+    background-image: url('../images/contact.jpg');
+    height:800px;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+  }
+  
+  .newsletter-box{
+    float:left;
+    position: absolute;
+    background-color:black;
+    width: 500px;
+    height: 800px;
+    text-align:center;
+  }
+  p{
+    font-family: Merriweather Sans, Helvetica, sans-serif;
+    font-size: 30px;
+    color: #FFF;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 80px;
+    margin-top:80px;
+  }
+  #email-field{
+    border-color: #FFF;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: dotted;
+    width:200px;
+  }
+  input[type=submit] {
+      margin-top: 20px;
+      margin-left: 0.75rem;
+      padding: 0.75rem;
+      background-color: #FFF;
+      color: #000;
+      border: none;
+      border-radius: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  footer{
+    background-color: black ;
+    height:200px;
+  }
+  
+  .social-media-links{
+  padding-top:20px;
+  margin: 0;
+  padding-left:20px;
+  width: 500px;
+  text-align: center;
+  }
+  
+  #spotify{
+    height:40px;
+  }
   
