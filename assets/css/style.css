@@ -65,9 +65,9 @@ h1{
 }
 
 #tour{
-    background-color: black;
+    background-color: grey;
     background-image: url('../images/tour.jpg');
-    height:800px;
+    height:900px;
     background-position: center;
     background-repeat: no-repeat; 
     background-size: cover;
@@ -109,6 +109,8 @@ h2, th, td{
   
 #venue{
     font-style: italic;
+     margin-top: 35px;
+     border-top: 1px solid black;
   }
   
 .button {
@@ -146,11 +148,15 @@ h2, th, td{
     display: inline-block;
   }
   #about{
-    background-color: green;
-    height: 50px;
+    background-color: blue;
+    background-image: url('../images/about.jpg');
+    height:800px;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
   }
   
-  #contact{
+  #connect{
     background-color: blue;
     background-image: url('../images/contact.jpg');
     height:800px;
