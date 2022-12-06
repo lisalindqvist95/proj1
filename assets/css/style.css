@@ -6,12 +6,12 @@
 }
 
 header {
-    background-color: #3d3d3d;
-    background-image: url('../images/home.jpg');
-    height:800px;
-    background-position: center;
-    background-repeat: no-repeat; 
-    background-size: cover;
+  background-color: #3d3d3d;
+  background-image: url('../images/home.jpg');
+  height:800px;
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size: cover;
 }
 
 .logo img{
@@ -128,6 +128,12 @@ h2, th, td{
     text-decoration: none;
   }
 
+
+
+
+
+
+
   #merch{
     background-color: blue;
     background-image: url('../images/merch.jpg');
@@ -137,16 +143,102 @@ h2, th, td{
     background-size: cover;
   }
   
-  .gallery {
-  padding-top:200px;
-  margin: auto;
-  width: 90%;
+  .flex-container {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin: auto;
+    flex-wrap: wrap;
+    width: 90%;
+    min-width:600px;
+  
   }
   
-  .gallery img{
-    width:200px;
+  .image {
+    width: 20%;
+    height: auto;
     display: inline-block;
+    padding-top:20px;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
   }
+
+  .container1 {
+    position: relative;
+    width: 200px;
+    width: 200px;
+    height: auto;
+    display: inline-block;
+    padding-top:20px;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .container:hover .image {
+    opacity: 0.5;
+  }
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #04AA6D;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+  
+
+
+
+
+
+
+
+  .store-button{
+     border: 3px solid #FFF;
+     width: 300px;
+     height: 80px;
+     padding:10px;
+     margin-top:60px; 
+  }
+  
+  #merch h2 {
+  padding-top:200px;
+  margin: auto;
+  }
+  
+  #merch h3 {
+    text-align: center;
+    font-size:30px;
+    border-bottom: 2px solid #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    width:10em;
+    padding-bottom:10px;
+    color:#fff;
+  }
+
+
+
+
+
+
+
+
   #about{
     background-color: blue;
     background-image: url('../images/about.jpg');
