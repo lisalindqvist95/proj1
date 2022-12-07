@@ -1,137 +1,144 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Montserrat:ital,wght@1,900&display=swap');
+
 * {
-    margin:0;
-    padding: 0;
-    border: none;
+  margin: 0;
+  padding: 0;
+  border: none;
 }
 
 header {
   background-color: #3d3d3d;
   background-image: url('../images/home.jpg');
-  height:800px;
+  height: 800px;
   background-position: center;
-  background-repeat: no-repeat; 
+  background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
 
-.logo img{
-    height: 90px;
-    padding: 10px;
-    float:left;
-    position: absolute;
-    margin-top: 10px;
-    margin-left: 10px;
-  }
-
-#menu{
-    letter-spacing: 1px;
-    list-style-type: none;
-    font-size: 100%;
+.logo img {
+  height: 90px;
+  padding: 10px;
+  float: left;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 10px;
 }
 
-nav ul{
-    text-align: center;
-    margin-left:-10px;
+#menu {
+  letter-spacing: 1px;
+  list-style-type: none;
+  font-size: 100%;
 }
 
-nav li{
-    display: inline-block;
-    font-family: Merriweather, Arial, sans-serif;
-    margin-top: 30px;
-    padding-left:30px;
+nav ul {
+  text-align: center;
+  margin-left: -10px;
 }
 
-a{
-    text-decoration: none;
-    color:#FFF;
+nav li {
+  display: inline-block;
+  font-family: Merriweather, Arial, sans-serif;
+  margin-top: 30px;
+  padding-left: 30px;
 }
 
-a:hover{
-    color:#ff7803;
+a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+a:hover {
+  color: #ff7803;
 }
 
 
 .sticky {
 
   top: 0;
-  width:100%;
+  width: 100%;
 }
 
-h1{
-    font-family: Montserrat;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    color:#FFF;
-    text-decoration: none;
+h1 {
+  font-family: Montserrat;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #FFF;
+  text-decoration: none;
 }
 
-#text-logo{
-    font-size: 350%;
-    text-align: center;
-    margin-top: 600px;
+#text-logo {
+  font-size: 350%;
+  text-align: center;
+  margin-top: 600px;
 }
 
 
 
-#tour-page{
-    background-color: grey;
-    background-image: url('../images/tour.jpg');
-    height:800px;
-    background-position: center;
-    background-repeat: no-repeat; 
-    background-size: cover;
-  }
-  
-  h2{
-    font-family: Merriweather, Arial, sans-serif;
-    border-bottom: 3px solid #FFF;
-    font-size: 40px;
-    text-transform: uppercase;
-    color:#fff;
-  }
+#tour-page {
+  background-color: grey;
+  background-image: url('../images/tour.jpg');
+  height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-.tour-dates {
-  padding-top:200px;
+h2 {
+  font-family: Merriweather, Arial, sans-serif;
+  border-bottom: 3px solid #FFF;
+  font-size:  3vw;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.tour-container {
+  padding-top: 10vw;
   margin: auto;
-  width: 50%;
-  }
-  
-th{
-    text-align: left;
-    font-size: 40px;
-    text-decoration: none;
-    min-width: 150px;
-  }
-  
-td{
-    text-align: left;
-    font-size: 20px;
-  }
-  
- th, td{
+  width: 90%;
+}
+
+.dates{
+  padding-top: 15px;
+}
+
+th {
+  text-align: left;
+  font-size:  3vw;
+  text-decoration: none;
+  min-width: 150px;
+}
+
+td {
+  text-align: left;
+  font-size: 1.5vw;
+}
+
+th,
+td {
   font-family: Merriweather, Arial, sans-serif;
   text-transform: uppercase;
-  color:#fff;
-  }
-  
-.padding-left {
-  padding-left:65px;
-  }
-  
-#venue{
-    font-style: italic;
-     margin-top: 35px;
-     border-top: 1px solid black;
-  }
+  color: #fff;
+}
 
-.ticket-button{
-    width: 300px;
-    height: 90px;
-    padding:10px;
-    text-align: center;
-    margin-top:60px;
- }
+.padding-left {
+  padding-left: 65px;
+}
+
+#venue {
+  font-style: italic;
+  margin-top: 35px;
+  border-top: 1px solid black;
+}
+
+.ticket-button {
+  width: 400px;
+  height: 100px;
+  padding: 10px;
+  text-align: center;
+  margin: auto;
+  padding-top: 4%;
+}
 
 .button-container {
   margin: auto;
@@ -140,363 +147,323 @@ td{
 
 h3 {
   text-align: center;
-  font-size:20px;
+  font-size: 1.5vw;
   border-bottom: 2px solid #FFF;
   border-top: 2px solid #FFF;
   font-family: Merriweather, Arial, sans-serif;
   text-transform: uppercase;
-  color:#fff;
+  color: #fff;
   letter-spacing: 2px;
 }
-  
-
-
-
-  #merch-page{
-    background-color: #001836;
-    background-image: url('../images/merch.jpg');
-    height:800px;
-    background-position: center;
-    background-repeat: no-repeat; 
-    background-size: cover;
-    justify-content: center;
-    }
-   
-    .merch-container{
-      padding-top:150px;
-    margin: auto;
-    width: 50%;
-    }
-  
-    .flex-container {
-      display: flex;
-      justify-content: center;
-      justify-content: space-around;
-      margin: auto;
-      flex-wrap: wrap;
-      width: 50%;
-    
-    }
-    
-    .flex-container img{
-      width:300px;
-      height: auto;
-      display: inline-block;
-      padding-top:20px;
-      opacity: 1;
-      transition: .5s ease;
-      backface-visibility: hidden;
-    }
-    
-    .container {
-      position: relative;
-      width: 300px;
-    }
-    
-    .middle{
-      transition: .5s ease;
-      opacity: 0;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-      text-align: center;
-    }
-    
-    .container:hover .image {
-      opacity: 0.5;
-    }
-    .container:hover .middle {
-      opacity: 1;
-    }
-  
-  
-  .merch-text {
-    background-color: #000;
-    text-align: center;
-    color:#fff;
-    font-size: 16px;
-    padding: 15px;
-    font-family: Merriweather, Arial, sans-serif;
-    text-transform: uppercase;
-  }
-  
 
 
 
 
+#merch-page {
+  background-color: #001836;
+  background-image: url('../images/merch.jpg');
+  height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+}
 
-  #about-page{
-    background-color: blue;
-    background-image: url('../images/about.jpg');
-    height:800px;
-    background-position: center;
-    background-repeat: no-repeat; 
-    background-size: cover;
-  }
+.merch-container {
+  padding-top: 150px;
+  margin: auto;
+  width: 90%;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  margin: auto;
+  flex-wrap: wrap;
+  width: 100%;
+
+}
+
+.flex-container img {
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  padding-top: 20px;
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.container {
+  position: relative;
+  width: 20%;
+  height: auto;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.5;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
 
 
-  .text-box{
-    background-color: rgb(0, 0, 0, 0.6);
-    width:700px;
-    height: 750px;
-    margin-top: 25px;
-    margin-left: -170px;
-  }
-
-  h4 {
-    font-family: Montserrat, Arial, sans-serif;
-    text-transform: uppercase;
-    color:#fff;
-    text-align: center;
-    padding-top: 100px;
-    font-size: 40px;
-    padding-bottom: -50px;
-  }
-
-  p{
-    font-family: Merriweather, Arial, sans-serif;
-    font-size: 30px;
-    color: #FFF;
-    text-transform: uppercase;
-    text-decoration: none;
-    padding: 80px;
-    margin-top:80px;
-  }
-
-  .text-box p{
-  font-size: 15px;
-  text-transform: none;
-  }
-
-  .about-image{
-    width: 300px;
-    margin-left: -100px;
-
-  }
-
-  .about-image img {
-    width: 500px;
-    margin-top: 5px;
-  }
+.merch-text {
+  background-color: #000;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  padding: 15px;
+  font-family: Merriweather, Arial, sans-serif;
+  text-transform: uppercase;
+}
 
 
 
 
 
 
+#about-page {
+  background-color: blue;
+  background-image: url('../images/about.jpg');
+  height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-container{
+  padding-top: 100px;
+  margin: auto;
+  width: 90%;
+}
+ 
+
+.text-box {
+  background-color: rgb(0, 0, 0, 0.6);
+  width: 80%;
+  height: auto;
+  margin-top: ;
+
+}
+
+h4 {
+  font-family: Montserrat, Arial, sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  padding-top: 10%;
+  font-size: 40px;
+  padding-bottom: -50px;
+}
+
+p {
+  font-family: Merriweather, Arial, sans-serif;
+  font-size: 1.5vw;
+  color: #FFF;
+  text-decoration: none;
+padding:80px;
+width: 59%;
+margin: auto;
+text-align: center;
+}
 
 
 
 
+#connect-page {
+  background-color: blue;
+  background-image: url('../images/contact.jpg');
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
+.connect-container {
+  padding-top: 150px;
+  margin: auto;
+  width: 70%;
+}
 
-  
-  #connect-page{
-    background-color: blue;
-    background-image: url('../images/contact.jpg');
-    height:800px;
-    background-position: center;
-    background-repeat: no-repeat; 
-    background-size: cover;
-  }
+.newsletter-box {
+  float: left;
+  position: absolute;
+  background-color: black;
+  width: 520px;
+  height: 800px;
+  text-align: center;
+}
 
-  .connect-container{
-    padding-top:150px;
-    margin: auto;
-    width: 50%;
-  }
-  
-  .newsletter-box{
-    float:left;
-    position: absolute;
-    background-color:black;
-    width: 520px;
-    height: 800px;
-    text-align:center;
-  }
-
-  #connect-page h2{
+#connect-page h2 {
   border-bottom: none;
-  }
+  font-size: 35px;
+}
 
-  input[type=email]{
-    border-color: #FFF;
-    text-decoration: none;
-    font-family: Merriweather, Arial, sans-serif;
-    border-style: dotted;
-    width:300px;
-    padding:15px;
-    background-color: #000;
-    text-align:center;
-    font-size: 15px;
-    margin-left: -40px;
-    margin-top: 30px;
-    
-  }
-  input[type=submit] {
-    margin-top: 20px;
-    margin-left: 0.75rem;
-    padding: 0.75rem;
-    background-color: #FFF;
-    color: #000;
-    border: none;
-    border-radius: 5px;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-family: Merriweather, Arial, sans-serif;
-    width:200px;
-    font-size: 20px;
-    margin-left: -10px;
-   }
-  
+input[type=email] {
+  border-color: #FFF;
+  text-decoration: none;
+  font-family: Merriweather, Arial, sans-serif;
+  border-style: dotted;
+  width: 300px;
+  padding: 15px;
+  background-color: #000;
+  text-align: center;
+  font-size: 15px;
+  margin-left: -40px;
+  margin-top: 30px;
 
+}
+
+input[type=submit] {
+  margin-top: 20px;
+  padding: 0.75rem;
+  background-color: #FFF;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: Merriweather, Arial, sans-serif;
+  width: 300px; 
+  font-size: 20px;
+}
 
 
 
-   footer{
-    background-color: black ;
-    height:200px;
-  }
 
- .footer-container{
+
+footer {
+  background-color: black;
+  height: 200px;
+}
+
+.footer-container {
   display: inline-block;
   width: 100%;
   margin: 0;
   position: relative;
- }
-  
-  .social-media-links{
-  padding-top:50px;
-  border:30px;
-  text-align: center;
-  }
-  
-  footer ul li{
-  text-decoration: none;
-  float: left;
-  margin-top: 30px;
-  }
-  
-  .social-media{
-    height:40px;
-    padding-left: 50px;
-  }
-  
+}
 
-  #footer-logo{
+.footer-left {
+  float: left;
+  padding-left: 5% 10%;
+  width: 33%;
+  margin-top: 15px;
+}
+
+.social-media-links {
+  padding-top: 50px;
+  border: 30px;
+  text-align: center;
+}
+.social-media-links > li {
+  display: inline;
+  font-size: 40px;
+  text-decoration: none;
+  padding:10px;
+}
+
+.footer-middle{
+  width: 100%;
+  text-align: center;
+}
+
+#footer-logo {
   width: 200px;
   text-align: center;
+}
+
+.footer-logo {
+  width: 100%;
+  text-align: center;
+  margin-left: -300px;
+
+
+}
+.footer-right{
+  width: 100%;
+}
+
+.footer-right > p{
+  padding: 0;
+  margin-top:-35px;
+  margin-right: 40px;
+  text-transform: uppercase;
+  font-size: 10px;
+  text-align: right;
+  float: right;
+}
+
+@media only screen and (max-width: 1124px) {
+  header {
+    height: 700px;
+    max-width: 1124px;
   }
 
-  .footer-logo{
-    width:100%;
-    text-align: center;
-    margin-left: -300px;
-
-
+  #tour-page {
+    height: 700px;
+    max-width: 1124px;
   }
-
-  #copyright {
-    float:right;
-    font-size: 10px;
-    margin-top: -180px;
-    text-align: right;
-    
-  }
-
-
-
-  @media only screen and (max-width: 500px) {
-
-   
-    header {
-      background-color: #3d3d3d;
-      background-image: url('../images/home.jpg');
-      height:700px;
-      max-width:500px;
-      background-position: center;
-      background-repeat: no-repeat; 
-      background-size: cover;
-      position: relative;
-    }
-    .logo img{
-      display:none;
-    }
-    
-    nav li{
-      display: inline-block;
-      font-family: Merriweather, Arial, sans-serif;
-      margin-top: 30px;
-      padding-left:15px;
-  }
-    
-    h1{
-      font-family: Montserrat;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      color:#FFF;
-      text-decoration: none;
+  h2 {
+    font-size:  4vw;
   }
   
-  #text-logo{
-      font-size: 350%;
-      text-align: center;
-      margin-top: 450px;
-  }
-   
-   
-   
-   
-   
-   
-    #tour-page{
-      background-color: grey;
-      background-image: url('../images/tour.jpg');
-      height:800px;
-      max-width:500px;
-      background-position: center;
-      background-repeat: no-repeat; 
-      background-size: cover;
-    }
-    
-    h2{
-      border-bottom: 3px solid #FFF;
-      font-size: 20px;
-      text-transform: uppercase;
-      color:#fff;
-      letter-spacing: 2px;
-    }
-  
-  .tour-dates {
-    padding-top:50px;
+  .tour-container {
+    padding-top: 20vw;
     margin: auto;
     width: 50%;
-    }
-    
-  th{
-      display: none;
-    }
-    
-  td{
-    display: none;
-    }
-    
-   th, td{
-    display: none;
-    }
-    
-  #venue{
-    display: none;
-    }
+  }
   
-  .ticket-button{
-      height: 0px;
-      padding:0px;
-      text-align: center;
-      margin-top:60px;
-   }
+  .dates{
+    padding-top: 15px;
+  }
+  
+  th {
+    text-align: left;
+    font-size:  4vw;
+    text-decoration: none;
+    min-width: 90px;
+  }
+  
+  td {
+    text-align: left;
+    font-size: 2.5vw;
+  }
+  
+  th,
+  td {
+    font-family: Merriweather, Arial, sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  
+  .padding-left {
+    padding-left: 65px;
+  }
+  
+  #venue {
+    font-style: italic;
+    margin-top: 35px;
+    border-top: 1px solid black;
+  }
+  
+  .ticket-button {
+    padding-top: 10%;
+  }
   
   .button-container {
     margin: auto;
@@ -504,203 +471,343 @@ h3 {
   }
   
   h3 {
+    font-size: 2.5vw;
+    letter-spacing: 2px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  header {
+    height: 481px;
+    max-width: 768;
+  }
+  
+  .logo img {
+   display: none;
+  }
+  
+  #text-logo {
+    font-size: 250%;
+    text-align: center;
+    margin-top: 320px;
+  }
+
+  #tour-page {
+    height: 481px;
+    max-width: 768;
+  }
+  h2 {
+    font-size:  4vw;
+    float: left;
+  }
+  
+  .tour-container {
+    padding-top: 15vw;
+    margin: auto;
+    width: 90%;
+  }
+  
+  .dates{
+    padding-top: 15px;
+  }
+  
+  th {
     text-align: left;
-    font-size:15px;
-    border-bottom: 2px solid #FFF;
-    border-top: 2px solid #FFF;
+    font-size:  4vw;
+    text-decoration: none;
+    min-width: 90px;
+  }
+  
+  td {
+    text-align: left;
+    font-size: 2.5vw;
+  }
+  
+  th,
+  td {
+    font-family: Merriweather, Arial, sans-serif;
     text-transform: uppercase;
-    color:#fff;
+    color: #fff;
+  }
+  
+  .padding-left {
+    padding-left: 35px;
+  }
+  
+  #venue {
+    font-style: italic;
+    margin-top: 35px;
+    border-top: 1px solid black;
+  }
+  
+  .ticket-button {
+    padding-top: 5%;
+  }
+  
+  .button-container {
+    margin: auto;
+    width: 100%;
+  }
+  
+  h3 {
+    font-size: 2.5vw;
     letter-spacing: 2px;
   }
 
 
-  #merch-page{
-    background-color: #001836;
-    background-image: url('../images/merch.jpg');
-    height:800px;
-    max-width:500px;
-    background-position: center;
-    background-repeat: no-repeat; 
-    background-size: cover;
-    justify-content: center;
-    }
-   
-    .merch-container{
-    padding-top:50px;
-    margin: auto;
-    width: 100%;
-    }
-  
-    .flex-container {
-      display: flex;
-      justify-content: center;
-      justify-content: space-around;
-      margin: 0;
-      padding:0;
-      flex-wrap: wrap;
-      width: 50%;
-    
-    }
-    
-    .flex-container img{
-      width:250px;
-      height: auto;
-      display: inline-block;
-      padding-top:20px;
-      opacity: 1;
-      transition: .5s ease;
-      backface-visibility: hidden;
-    }
-    
-    .container {
-      width: 250px;
-    }
-    
-    #about-page{
-      background-color: blue;
-      background-image: url('../images/about.jpg');
-      height: 900px;
-      max-width: 500px;
-      background-position: center;
-      background-repeat: no-repeat; 
-      background-size: cover;
-    }
-  
-  
-    .about-image{
-      width: 100%px;
-      margin-left: 0px;
-  
-    }
-  
-    .about-image img {
-      width: 100px;
-      margin-top: 5px;
-    }
+#merch-page {
+  height: 668px;
+  max-width: 768;
 
-    .text-box{
-      background-color: rgb(0, 0, 0, 0.6);
-      width:fit-content;
-      height: 750px;
-      margin: 0;
-      padding: 50px blue;
-      border: 50px;
-      border-color: red;
-    }
-  
-    h4 {
-      font-family: Montserrat, Arial, sans-serif;
-      text-transform: uppercase;
-      color:#fff;
-      text-align: center;
-      padding-top: 10px;
-      font-size: 40px;
-      padding-bottom: -50px;
-      width: 100%;
-    }
-  
-    p{
-      font-family: Merriweather, Arial, sans-serif;
-      font-size: 30px;
-      color: #FFF;
-      text-transform: uppercase;
-      text-decoration: none;
-      padding: 80px;
-      margin:0;
-      padding: 0;
-      border:0;
-      width:100%;
-      text-align: center;
-    }
-  
-    .text-box p{
-    font-size: 15px;
-    text-transform: none;
-    }
-  
-   
-    
-  
-    #connect-page{
-      background-color: blue;
-      background-image: url('../images/contact.jpg');
-      height:600px;
-      max-width: 500px;
-      background-position: center;
-      background-repeat: no-repeat; 
-      background-size: cover;
-    }
-  
-    .connect-container{
-      padding:0;
-      margin: 0;
-      border:0;
-      max-width: 500px;
-      
-    }
-    
-    .newsletter-box{
-      background-color:black;
-      max-width: 375px;
-      height: 500px;
-      text-align:center;
-      margin-top: 300px;
-     
-    }
-  
-    #connect-page h2{
+}
+
+.merch-container {
+  padding-top: 10vw;
+  margin: auto;
+  width: 90%;
+}
+
+.flex-container {
+  justify-content: space-around;
+  justify-content: center;
+  margin: auto;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  display: flex;
+}
+
+
+.container {
+  position: relative;
+  width: 30%;
+  padding: 2px 30px;
+  height: auto;
+}
+
+.merch-text {
+  font-size: 10px;
+}
+
+
+
+
+
+
+
+#connect-page {
+  background-image: url('../images/contact.jpg');
+  height: 481px;
+  max-width: 768;
+
+}
+
+.connect-container {
+  padding-top: 15vw;
+  margin: auto;
+  width: 90%;
+}
+
+.newsletter-box {
+  float: left;
+  position: absolute;
+  background-color: black;
+  width: 400px;
+  height: 481px;
+  text-align: center;
+}
+
+#connect-page h2 {
+  border-bottom: none;
+  font-size: 25px;
+}
+
+
+
+
+
+
+footer {
+  background-color: black;
+  height: 400px;
+}
+
+.footer-container {
+  padding-top: 15vw;
+  margin: auto;
+  width: 90%;
+  display: inline-block;
+}
+
+.social-media-links {
+  padding-top: 50px;
+  border: 30px;
+  text-align: center;
+}
+
+footer ul li {
+  text-decoration: none;
+  float: left;
+  margin-top: 30px;
+}
+
+.social-media {
+  height: 40px;
+  padding-left: 50px;
+}
+
+
+#footer-logo {
+  width: 200px;
+  text-align: center;
+}
+
+.footer-logo {
+  width: 100%;
+  text-align: center;
+  margin-left: -300px;
+
+
+}
+
+#copyright {
+  float: right;
+  font-size: 10px;
+  margin-top: -180px;
+  text-align: right;
+
+}
+}
+
+
+
+@media only screen and (max-width: 500px) {
+
+
+  header {
+    background-color: #3d3d3d;
+    background-image: url('../images/home.jpg');
+    height: 700px;
+    max-width: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .logo img {
+    display: none;
+  }
+
+  nav li {
+    display: inline-block;
+    font-family: Merriweather, Arial, sans-serif;
+    margin-top: 30px;
+    padding-left: 15px;
+  }
+
+  h1 {
+    font-family: Montserrat;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #FFF;
+    text-decoration: none;
+  }
+
+  #text-logo {
+    font-size: 350%;
+    text-align: center;
+    margin-top: 450px;
+  }
+
+
+
+
+
+
+  #connect-page {
+    background-color: blue;
+    background-image: url('../images/contact.jpg');
+    height: 600px;
+    max-width: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .connect-container {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    max-width: 500px;
+
+  }
+
+  .newsletter-box {
+    background-color: black;
+    max-width: 375px;
+    height: 500px;
+    text-align: center;
+    margin-top: 300px;
+
+  }
+
+  #connect-page h2 {
     border-bottom: none;
     width: 300px;
-    margin-top:30px;
+    margin-top: 30px;
     text-align: center;
-    }
+  }
 
-    fieldset{
-      height:400px;
-      width:300px;
-      display: flex;
-      justify-content: center;
-      justify-content: space-around;
-      margin: auto;
-      flex-wrap: wrap;
-      width: 50%;
-    }
-    form{
-      height:400px;
-      width:300px;
-    }
+  fieldset {
+    height: 400px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin: auto;
+    flex-wrap: wrap;
+    width: 50%;
+  }
 
-    .email-field{
-    display: none;    }
-  
-    input[type=email]{
-      border-color: #FFF;
-      text-decoration: none;
-      font-family: Merriweather, Arial, sans-serif;
-      border-style: dotted;
-      width:250px;
-      padding:15px;
-      background-color: #000;
-      text-align:center;
-      font-size: 15px;
-      margin:0px;
-      
-    }
-    input[type=submit] {
-      margin:0;
-      padding: 0.75rem;
-      width:150px;
-      font-size: 20px;
-      margin:20px;
-     }
-    
+  form {
+    height: 400px;
+    width: 300px;
+  }
 
-     footer{
-      background-color: black ;
-      height:300px;
-    }
-  
-   .footer-container{
+  .email-field {
+    display: none;
+  }
+
+  input[type=email] {
+    border-color: #FFF;
+    text-decoration: none;
+    font-family: Merriweather, Arial, sans-serif;
+    border-style: dotted;
+    width: 250px;
+    padding: 15px;
+    background-color: #000;
+    text-align: center;
+    font-size: 15px;
+    margin: 0px;
+
+  }
+
+  input[type=submit] {
+    margin: 0;
+    padding: 0.75rem;
+    width: 150px;
+    font-size: 20px;
+    margin: 20px;
+  }
+
+
+  footer {
+    background-color: black;
+    height: 300px;
+  }
+
+  .footer-container {
     display: inline-block;
     width: 100%;
     margin: 0;
@@ -711,46 +818,46 @@ h3 {
     margin: auto;
     flex-wrap: wrap;
     width: 50%;
-   }
-    
-    .social-media-links{
-    padding:0px;
-    border:0;
-    }
-    
-    footer ul li{
+  }
+
+  .social-media-links {
+    padding: 0px;
+    border: 0;
+  }
+
+  footer ul li {
     width: 10px;
     display: inline-block;
     margin: auto;
-    }
-    
-    .social-media{
-      height:15px;
-      padding: 20px;
-    }
-    
-  
-    #footer-logo{
+  }
+
+  .social-media {
+    height: 15px;
+    padding: 20px;
+  }
+
+
+  #footer-logo {
     width: 200px;
     text-align: center;
-    }
-  
-    .footer-logo{
-      width:100%;
-      text-align: center;
-      margin-left: 0;
-  
-  
-    }
-  
-    #copyright {
-      font-size: 10px;
-      margin-top: 30px;
-      text-align: center;
-      
-    }
-  
+  }
 
-    
+  .footer-logo {
+    width: 100%;
+    text-align: center;
+    margin-left: 0;
+
 
   }
+
+  #copyright {
+    font-size: 10px;
+    margin-top: 30px;
+    text-align: center;
+
+  }
+
+
+
+
+}
