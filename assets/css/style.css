@@ -266,7 +266,7 @@ h4 {
   text-align: center;
   padding-top: 10%;
   font-size: 40px;
-  padding-bottom: -50px;
+  padding-bottom: 0px;
 }
 
 p {
@@ -359,7 +359,6 @@ footer {
 
 .footer-left {
   float: left;
-  padding-left: 5% 10%;
   width: 33%;
   margin-top: 15px;
 }
@@ -496,7 +495,7 @@ footer {
 @media only screen and (max-width: 768px) {
   header {
     height: 481px;
-    max-width: 768;
+    max-width: 768px;
   }
 
   .logo img {
@@ -511,7 +510,7 @@ footer {
 
   #tour-page {
     height: 481px;
-    max-width: 768;
+    max-width: 768px;
   }
 
   h2 {
@@ -575,7 +574,7 @@ footer {
 
   #merch-page {
     height: 668px;
-    max-width: 768;
+    max-width: 768px;
 
   }
 
@@ -609,7 +608,7 @@ footer {
 
   #about-page {
     height: 600px;
-    max-width: 768;
+    max-width: 768px;
   }
   
   .about-container {
@@ -636,7 +635,7 @@ footer {
   #connect-page {
     background-image: url('../images/contact.jpg');
     height: 481px;
-    max-width: 768;
+    max-width: 768px;
 
   }
 
