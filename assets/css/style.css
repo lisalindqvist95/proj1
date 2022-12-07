@@ -31,7 +31,7 @@ header {
 
 nav ul{
     text-align: center;
-    margin-left:-50px;
+    margin-left:-10px;
 }
 
 nav li{
@@ -75,18 +75,18 @@ h1{
     background-size: cover;
   }
   
-.tour-dates {
-  padding-top:200px;
-  margin: auto;
-  width: 50%;
-  }
-  
-h2{
+  h2{
     font-family: Merriweather, Arial, sans-serif;
     border-bottom: 3px solid #FFF;
     font-size: 40px;
     text-transform: uppercase;
     color:#fff;
+  }
+
+.tour-dates {
+  padding-top:200px;
+  margin: auto;
+  width: 50%;
   }
   
 th{
@@ -152,6 +152,12 @@ h3 {
     background-repeat: no-repeat; 
     background-size: cover;
     justify-content: center;
+    }
+   
+    .merch-container{
+    padding-top:150px;
+    margin: auto;
+    width: 50%;
     }
   
     .flex-container {
@@ -241,6 +247,16 @@ h3 {
     padding-bottom: -50px;
   }
 
+  p{
+    font-family: Merriweather Sans, Helvetica, sans-serif;
+    font-size: 30px;
+    color: #FFF;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 80px;
+    margin-top:80px;
+  }
+
   .text-box p{
   font-size: 15px;
   text-transform: none;
@@ -277,6 +293,12 @@ h3 {
     background-repeat: no-repeat; 
     background-size: cover;
   }
+
+  .connect-container{
+    padding-top:150px;
+    margin: auto;
+    width: 50%;
+  }
   
   .newsletter-box{
     float:left;
@@ -286,15 +308,11 @@ h3 {
     height: 800px;
     text-align:center;
   }
-  p{
-    font-family: Merriweather Sans, Helvetica, sans-serif;
-    font-size: 30px;
-    color: #FFF;
-    text-transform: uppercase;
-    text-decoration: none;
-    padding: 80px;
-    margin-top:80px;
+
+  .connect-page h2{
+    border: none;
   }
+
   input[type=email]{
     border-color: #FFF;
     text-decoration: none;
