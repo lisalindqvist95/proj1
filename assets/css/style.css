@@ -12,6 +12,7 @@ header {
   background-position: center;
   background-repeat: no-repeat; 
   background-size: cover;
+  position: relative;
 }
 
 .logo img{
@@ -48,6 +49,13 @@ a{
 
 a:hover{
     color:#ff7803;
+}
+
+
+.sticky {
+
+  top: 0;
+  width:100%;
 }
 
 h1{
@@ -155,7 +163,7 @@ h3 {
     }
    
     .merch-container{
-    padding-top:150px;
+      padding-top:150px;
     margin: auto;
     width: 50%;
     }
@@ -234,7 +242,7 @@ h3 {
     width:700px;
     height: 750px;
     margin-top: 25px;
-    margin-left: -120px;
+    margin-left: -170px;
   }
 
   h4 {
@@ -248,7 +256,7 @@ h3 {
   }
 
   p{
-    font-family: Merriweather Sans, Helvetica, sans-serif;
+    font-family: Merriweather, Arial, sans-serif;
     font-size: 30px;
     color: #FFF;
     text-transform: uppercase;
@@ -316,7 +324,7 @@ h3 {
   input[type=email]{
     border-color: #FFF;
     text-decoration: none;
-    font-family: Merriweather Sans, Helvetica, sans-serif;
+    font-family: Merriweather, Arial, sans-serif;
     border-style: dotted;
     width:300px;
     padding:15px;
@@ -337,7 +345,7 @@ h3 {
     border-radius: 5px;
     text-transform: uppercase;
     text-decoration: none;
-    font-family: Merriweather Sans, Helvetica, sans-serif;
+    font-family: Merriweather, Arial, sans-serif;
     width:200px;
     font-size: 20px;
     margin-left: -10px;
@@ -396,4 +404,353 @@ h3 {
     margin-top: -180px;
     text-align: right;
     
+  }
+
+
+
+  @media only screen and (max-width: 500px) {
+
+   
+    header {
+      background-color: #3d3d3d;
+      background-image: url('../images/home.jpg');
+      height:700px;
+      max-width:500px;
+      background-position: center;
+      background-repeat: no-repeat; 
+      background-size: cover;
+      position: relative;
+    }
+    .logo img{
+      display:none;
+    }
+    
+    nav li{
+      display: inline-block;
+      font-family: Merriweather, Arial, sans-serif;
+      margin-top: 30px;
+      padding-left:15px;
+  }
+    
+    h1{
+      font-family: Montserrat;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color:#FFF;
+      text-decoration: none;
+  }
+  
+  #text-logo{
+      font-size: 350%;
+      text-align: center;
+      margin-top: 450px;
+  }
+   
+   
+   
+   
+   
+   
+    #tour-page{
+      background-color: grey;
+      background-image: url('../images/tour.jpg');
+      height:800px;
+      max-width:500px;
+      background-position: center;
+      background-repeat: no-repeat; 
+      background-size: cover;
+    }
+    
+    h2{
+      border-bottom: 3px solid #FFF;
+      font-size: 20px;
+      text-transform: uppercase;
+      color:#fff;
+      letter-spacing: 2px;
+    }
+  
+  .tour-dates {
+    padding-top:50px;
+    margin: auto;
+    width: 50%;
+    }
+    
+  th{
+      display: none;
+    }
+    
+  td{
+    display: none;
+    }
+    
+   th, td{
+    display: none;
+    }
+    
+  #venue{
+    display: none;
+    }
+  
+  .ticket-button{
+      height: 0px;
+      padding:0px;
+      text-align: center;
+      margin-top:60px;
+   }
+  
+  .button-container {
+    margin: auto;
+    width: 100%;
+  }
+  
+  h3 {
+    text-align: left;
+    font-size:15px;
+    border-bottom: 2px solid #FFF;
+    border-top: 2px solid #FFF;
+    text-transform: uppercase;
+    color:#fff;
+    letter-spacing: 2px;
+  }
+
+
+  #merch-page{
+    background-color: #001836;
+    background-image: url('../images/merch.jpg');
+    height:800px;
+    max-width:500px;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    justify-content: center;
+    }
+   
+    .merch-container{
+    padding-top:50px;
+    margin: auto;
+    width: 100%;
+    }
+  
+    .flex-container {
+      display: flex;
+      justify-content: center;
+      justify-content: space-around;
+      margin: 0;
+      padding:0;
+      flex-wrap: wrap;
+      width: 50%;
+    
+    }
+    
+    .flex-container img{
+      width:250px;
+      height: auto;
+      display: inline-block;
+      padding-top:20px;
+      opacity: 1;
+      transition: .5s ease;
+      backface-visibility: hidden;
+    }
+    
+    .container {
+      width: 250px;
+    }
+    
+    #about-page{
+      background-color: blue;
+      background-image: url('../images/about.jpg');
+      height: 900px;
+      max-width: 500px;
+      background-position: center;
+      background-repeat: no-repeat; 
+      background-size: cover;
+    }
+  
+  
+    .about-image{
+      width: 100%px;
+      margin-left: 0px;
+  
+    }
+  
+    .about-image img {
+      width: 100px;
+      margin-top: 5px;
+    }
+
+    .text-box{
+      background-color: rgb(0, 0, 0, 0.6);
+      width:fit-content;
+      height: 750px;
+      margin: 0;
+      padding: 50px blue;
+      border: 50px;
+      border-color: red;
+    }
+  
+    h4 {
+      font-family: Montserrat, Arial, sans-serif;
+      text-transform: uppercase;
+      color:#fff;
+      text-align: center;
+      padding-top: 10px;
+      font-size: 40px;
+      padding-bottom: -50px;
+      width: 100%;
+    }
+  
+    p{
+      font-family: Merriweather, Arial, sans-serif;
+      font-size: 30px;
+      color: #FFF;
+      text-transform: uppercase;
+      text-decoration: none;
+      padding: 80px;
+      margin:0;
+      padding: 0;
+      border:0;
+      width:100%;
+      text-align: center;
+    }
+  
+    .text-box p{
+    font-size: 15px;
+    text-transform: none;
+    }
+  
+   
+    
+  
+    #connect-page{
+      background-color: blue;
+      background-image: url('../images/contact.jpg');
+      height:600px;
+      max-width: 500px;
+      background-position: center;
+      background-repeat: no-repeat; 
+      background-size: cover;
+    }
+  
+    .connect-container{
+      padding:0;
+      margin: 0;
+      border:0;
+      max-width: 500px;
+      
+    }
+    
+    .newsletter-box{
+      background-color:black;
+      max-width: 375px;
+      height: 500px;
+      text-align:center;
+      margin-top: 300px;
+     
+    }
+  
+    #connect-page h2{
+    border-bottom: none;
+    width: 300px;
+    margin-top:30px;
+    text-align: center;
+    }
+
+    fieldset{
+      height:400px;
+      width:300px;
+      display: flex;
+      justify-content: center;
+      justify-content: space-around;
+      margin: auto;
+      flex-wrap: wrap;
+      width: 50%;
+    }
+    form{
+      height:400px;
+      width:300px;
+    }
+
+    .email-field{
+    display: none;    }
+  
+    input[type=email]{
+      border-color: #FFF;
+      text-decoration: none;
+      font-family: Merriweather, Arial, sans-serif;
+      border-style: dotted;
+      width:250px;
+      padding:15px;
+      background-color: #000;
+      text-align:center;
+      font-size: 15px;
+      margin:0px;
+      
+    }
+    input[type=submit] {
+      margin:0;
+      padding: 0.75rem;
+      width:150px;
+      font-size: 20px;
+      margin:20px;
+     }
+    
+
+     footer{
+      background-color: black ;
+      height:300px;
+    }
+  
+   .footer-container{
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin: auto;
+    flex-wrap: wrap;
+    width: 50%;
+   }
+    
+    .social-media-links{
+    padding:0px;
+    border:0;
+    }
+    
+    footer ul li{
+    width: 10px;
+    display: inline-block;
+    margin: auto;
+    }
+    
+    .social-media{
+      height:15px;
+      padding: 20px;
+    }
+    
+  
+    #footer-logo{
+    width: 200px;
+    text-align: center;
+    }
+  
+    .footer-logo{
+      width:100%;
+      text-align: center;
+      margin-left: 0;
+  
+  
+    }
+  
+    #copyright {
+      font-size: 10px;
+      margin-top: 30px;
+      text-align: center;
+      
+    }
+  
+
+    
+
   }
