@@ -87,6 +87,7 @@ h1 {
 h2 {
   font-family: Merriweather, Arial, sans-serif;
   border-bottom: 3px solid #FFF;
+  letter-spacing: 1px;
   font-size: 3vw;
   text-transform: uppercase;
   color: #fff;
@@ -150,6 +151,7 @@ h3 {
   font-size: 1.5vw;
   border-bottom: 2px solid #FFF;
   border-top: 2px solid #FFF;
+  letter-spacing: 1px;
   font-family: Merriweather, Arial, sans-serif;
   text-transform: uppercase;
   color: #fff;
@@ -264,6 +266,7 @@ h4 {
   text-transform: uppercase;
   color: #fff;
   text-align: center;
+  letter-spacing: 1px;
   padding-top: 10%;
   font-size: 40px;
   padding-bottom: 0px;
@@ -316,13 +319,13 @@ input[type=email] {
   border-color: #FFF;
   text-decoration: none;
   font-family: Merriweather, Arial, sans-serif;
+  letter-spacing: 1px;
   border-style: dotted;
   width: 300px;
   padding: 15px;
   background-color: #000;
   text-align: center;
   font-size: 15px;
-  margin-left: -40px;
   margin-top: 30px;
 
 }
@@ -337,6 +340,7 @@ input[type=submit] {
   text-transform: uppercase;
   text-decoration: none;
   font-family: Merriweather, Arial, sans-serif;
+  letter-spacing: 1px;
   width: 300px;
   font-size: 20px;
 }
@@ -347,7 +351,7 @@ input[type=submit] {
 
 footer {
   background-color: black;
-  height: 400px;
+  height: auto;
 }
 
 .footer-container {
@@ -383,16 +387,14 @@ footer {
 
 
 #copyright{
-  padding: 0;
+  margin-bottom: 10px;
   margin-top: 0;
   border:0;
+  letter-spacing: 1px;
   text-align: center;
   padding: 0;
-  margin-top: 0;
   text-transform: uppercase;
   font-size: 10px;
-  border:0;
-  text-align: center;
 }
 
 
@@ -420,7 +422,7 @@ footer {
   .tour-container {
     padding-top: 20vw;
     margin: auto;
-    width: 50%;
+    width: 90%;
   }
 
   .dates {
@@ -490,6 +492,7 @@ footer {
   header {
     height: 481px;
     max-width: 768px;
+  
   }
 
   .logo img {
@@ -566,6 +569,14 @@ footer {
   }
 
 
+
+
+
+
+
+
+
+
   #merch-page {
     height: 668px;
     max-width: 768px;
@@ -600,8 +611,14 @@ footer {
     font-size: 10px;
   }
 
+
+
+
+
+
+
   #about-page {
-    height: 600px;
+    height: 668px;
     max-width: 768px;
   }
   
@@ -677,6 +694,7 @@ footer {
 @media only screen and (max-width: 500px) {
    header {
     height: 700px;
+    background-image: url('../images/home_500px.jpg');
     max-width: 500px;
   }
 
@@ -685,163 +703,247 @@ footer {
   }
 
   nav li {
-    display: inline-block;
-    font-family: Merriweather, Arial, sans-serif;
     margin-top: 30px;
-    padding-left: 15px;
+    padding-left: 10px;
   }
 
-  h1 {
-    font-family: Montserrat;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    color: #FFF;
-    text-decoration: none;
-  }
 
   #text-logo {
-    font-size: 150%;
+    font-size: 190%;
     text-align: center;
     margin-top: 550px;
   }
 
 
 
+  #tour-page {
+    height: 500px;
+    max-width: 500px;
+    background-color: #000;
+    background-image: none;
+  }
+
+  h2 {
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+   
+   
+  }
+
+  .tour-container {
+    padding-top: 15vw;
+    margin: auto;
+    width: 90%;
+  }
+
+  .dates {
+    padding-top: 15px;
+  }
+
+  table {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  tbody {
+    display: flex;
+    flex-direction: row;
+}
+
+  tr {
+      display: flex;
+      flex-direction: column;
+      padding-top: 10%;
+    
+  }
+  
+  .padding-left{
+    padding-left: 0px;
+    margin-top: 10px;
+  }
+
+  th {
+    padding-left: 0px;
+    text-align: left;
+    font-size: 25px;
+    text-decoration: none;
+    width:10px;
+    margin-left: -60px;
+  }
+
+  #venue {
+    margin:0;
+    padding:0;
+    width:10px;
+  }
+  #city{
+    margin:0;
+    padding:0;
+  }
+  
+  #city > td{
+    text-align: left;
+    padding-left: 20px;
+    margin-top: 50px;
+    font-size: 10px;
+
+  }
+
+  #venue > td{
+    text-align: left;
+    padding-left: 10px;
+    margin-top: 50px;
+    width:100px;
+    font-size: 10px;
+  }
+
+
+
+
+  .ticket-button {
+    padding: 10px 0 0 0;
+    width: 100%;
+    margin:0;
+  }
+
+  .button-container {
+    margin: auto;
+    width: 100%;
+  }
+
+  h3 {
+    font-size: 20px;
+    letter-spacing: 2px;
+    width:100%;
+  }
+
+
+
+
+
+
+
+
+
+
+  #merch-page {
+    height: 1200px;
+    max-width: 500px;
+    background-color: #000;
+    background-image: none;
+
+  }
+
+  .merch-container {
+    padding-top: 10vw;
+    margin: auto;
+    width: 90%;
+  }
+
+  .flex-container {
+    justify-content: space-around;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    display: flex;
+  }
+
+
+  .container {
+    position: relative;
+    width: 50%;
+    padding: 1px 30px;
+    height: auto;
+  }
+
+  .merch-text {
+    font-size: 10px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+  #about-page {
+    height: 900px;
+    max-width: 500px;
+    background-color: #000;
+    background-image: none;
+  }
+  
+  .about-container {
+    padding-top: 0px;
+    margin: auto;
+    width: 100%;
+    height: 700px;
+  }
+
+  .text-box {
+    width: 90%;
+    height: 700px;
+  
+  }
+
+  p {
+    font-size: 15px;
+    padding:5vw;
+  }
+
 
 
 
   #connect-page {
-    background-color: blue;
-    background-image: url('../images/contact.jpg');
-    height: 600px;
+    background-image: url('../images/contact_500px.jpg');
+    height: 700px;
     max-width: 500px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+
   }
 
   .connect-container {
-    padding: 0;
-    margin: 0;
-    border: 0;
-    max-width: 500px;
-
+    margin: auto;
+    width: 90%;
   }
 
   .newsletter-box {
-    background-color: black;
-    max-width: 375px;
-    height: 500px;
-    text-align: center;
-    margin-top: 300px;
-
+    background-color: transparent;
+    width: 100%;
+    height:auto;
   }
 
   #connect-page h2 {
     border-bottom: none;
-    width: 300px;
-    margin-top: 30px;
-    text-align: center;
+    font-size: 25px;
+    padding-top: 370px;
+    padding-bottom: 30px;
+  }
+  #email-field{
+    margin:0;
+    width: 70%;
+  }
+  #sign-up{
+    margin-top:10px;
+    width: 60%;
+  }
+  .social-media-links>li {
+    font-size: 25px;
+    padding: 2px;
   }
 
-  fieldset {
-    height: 400px;
-    width: 300px;
-    display: flex;
-    justify-content: center;
-    justify-content: space-around;
-    margin: auto;
-    flex-wrap: wrap;
-    width: 50%;
-  }
-
-  form {
-    height: 400px;
-    width: 300px;
-  }
-
-  .email-field {
-    display: none;
-  }
-
-  input[type=email] {
-    border-color: #FFF;
-    text-decoration: none;
-    font-family: Merriweather, Arial, sans-serif;
-    border-style: dotted;
-    width: 250px;
-    padding: 15px;
-    background-color: #000;
-    text-align: center;
-    font-size: 15px;
-    margin: 0px;
-
-  }
-
-  input[type=submit] {
-    margin: 0;
-    padding: 0.75rem;
-    width: 150px;
-    font-size: 20px;
-    margin: 20px;
-  }
-
-
-  footer {
-    background-color: black;
-    height: 300px;
-  }
-
-  .footer-container {
-    display: inline-block;
-    width: 100%;
-    margin: 0;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    justify-content: space-around;
-    margin: auto;
-    flex-wrap: wrap;
-    width: 50%;
-  }
-
-  .social-media-links {
-    padding: 0px;
-    border: 0;
-  }
-
-  footer ul li {
-    width: 10px;
-    display: inline-block;
-    margin: auto;
-  }
-
-  .social-media {
-    height: 15px;
-    padding: 20px;
-  }
 
 
   #footer-logo {
-    width: 200px;
-    text-align: center;
+      width: 35%;
   }
-
-  .footer-logo {
-    width: 100%;
-    text-align: center;
-    margin-left: 0;
-
-
-  }
-
-  #copyright {
-    font-size: 10px;
-    margin-top: 30px;
-    text-align: center;
-
-  }
-
 
 
 
