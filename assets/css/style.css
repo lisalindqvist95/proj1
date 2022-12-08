@@ -303,7 +303,7 @@ p {
   position: absolute;
   background-color: black;
   width: 520px;
-  height: 800px;
+  height: 600px;
   text-align: center;
 }
 
@@ -347,20 +347,13 @@ input[type=submit] {
 
 footer {
   background-color: black;
-  height: 200px;
+  height: 400px;
 }
 
 .footer-container {
-  display: inline-block;
-  width: 100%;
-  margin: 0;
-  position: relative;
-}
-
-.footer-left {
-  float: left;
-  width: 33%;
-  margin-top: 15px;
+  padding-top: 1vw;
+  margin: auto;
+  width: 90%;
 }
 
 .social-media-links {
@@ -382,31 +375,26 @@ footer {
 }
 
 #footer-logo {
-  width: 200px;
-  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
 }
 
-.footer-logo {
-  width: 100%;
-  text-align: center;
-  margin-left: -300px;
 
-
-}
-
-.footer-right {
-  width: 100%;
-}
-
-.footer-right>p {
+#copyright{
   padding: 0;
-  margin-top: -35px;
-  margin-right: 40px;
+  margin-top: 0;
+  border:0;
+  text-align: center;
+  padding: 0;
+  margin-top: 0;
   text-transform: uppercase;
   font-size: 10px;
-  text-align: right;
-  float: right;
+  border:0;
+  text-align: center;
 }
+
 
 @media only screen and (max-width: 1124px) {
   header {
@@ -490,7 +478,13 @@ footer {
   p {
     font-size: 1.7vw;
   }
+
+  #footer-logo {
+    width: 30%;
+  }
 }
+
+
 
 @media only screen and (max-width: 768px) {
   header {
@@ -669,58 +663,19 @@ footer {
     height: 400px;
   }
 
-  .footer-container {
-    padding-top: 15vw;
-    margin: auto;
-    width: 90%;
-    display: inline-block;
-  }
-
-  .social-media-links {
-    padding-top: 50px;
-    border: 30px;
-    text-align: center;
-  }
-
-  footer ul li {
-    text-decoration: none;
-    float: left;
-    margin-top: 30px;
-  }
-
-  .social-media {
-    height: 40px;
-    padding-left: 50px;
-  }
-
-
+  
   #footer-logo {
-    width: 200px;
-    text-align: center;
+    width: 30%;
   }
 
-  .footer-logo {
-    width: 100%;
-    text-align: center;
-    margin-left: -300px;
 
 
-  }
-
-  #copyright {
-    float: right;
-    font-size: 10px;
-    margin-top: -180px;
-    text-align: right;
-
-  }
 }
 
 
 
 @media only screen and (max-width: 500px) {
    header {
-    background-image: url('../images/home.jpg');
     height: 700px;
     max-width: 500px;
   }
