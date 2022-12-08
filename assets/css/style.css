@@ -6,6 +6,7 @@
   border: none;
 }
 
+/* Start of header section */
 header {
   background-color: #3d3d3d;
   background-image: url('../images/home.jpg');
@@ -58,6 +59,8 @@ h1 {
   letter-spacing: 1px;
   color: #FFF;
   text-decoration: none;
+  font-style: italic;
+  font-weight:900;
 }
 
 #text-logo {
@@ -66,6 +69,7 @@ h1 {
   margin-top: 600px;
 }
 
+/* Start of tour section */
 #tour-page {
   background-color: #3d3d3d;
   background-image: url('../images/tour.jpg');
@@ -160,7 +164,7 @@ h3 {
   letter-spacing: 2px;
 }
 
-
+/* Start of merch section */
 #merch-page {
   background-color: #3d3d3d;
   background-image: url('../images/merch.jpg');
@@ -195,6 +199,7 @@ h3 {
   height: auto;
 }
 
+/* Code from w3scools https://www.w3schools.com/howto/howto_css_image_overlay.asp */
 .middle {
   transition: .5s ease;
   opacity: 0;
@@ -213,6 +218,7 @@ h3 {
 .container:hover .middle {
   opacity: 1;
 }
+/* End of code from w3scools */
 
 .merch-text {
   background-color: #000;
@@ -224,7 +230,7 @@ h3 {
   text-transform: uppercase;
 }
 
-
+/* Start of about section */
 #about-page {
   background-color: #3d3d3d;
   background-image: url('../images/about.jpg');
@@ -268,7 +274,7 @@ p {
   text-align: center;
 }
 
-
+/* Start of connect section */
 #connect-page {
   background-color: #3d3d3d;
   background-image: url('../images/contact.jpg');
@@ -336,7 +342,7 @@ input[type=submit]:hover {
   background-color: #ff7803;
 }
 
-
+/* Start of footer */
 footer {
   background-color: #000;
   height: auto;
@@ -384,6 +390,7 @@ footer {
   font-size: 10px;
 }
 
+/* Start of confirmation html styling */
 .newsletter {
   background-color: #3d3d3d;
   background-repeat: repeat;
@@ -411,9 +418,7 @@ footer {
   color: #ff7803;
 }
 
-
-
-
+/* Media with a screen of max-width 1124px */
 @media only screen and (max-width: 1124px) {
   header {
     height: 700px;
@@ -516,8 +521,7 @@ footer {
   }
 }
 
-
-
+/* Media with a screen of max-width 800px */
 @media only screen and (max-width: 800px) {
   header {
     height: 481px;
@@ -693,7 +697,7 @@ footer {
   }
 }
 
-
+/* Media with a screen of max-width 500px */
 @media only screen and (max-width: 500px) {
   header {
     height: 630px;
