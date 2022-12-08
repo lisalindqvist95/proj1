@@ -53,7 +53,7 @@ a:hover {
 }
 
 h1 {
-  font-family: Montserrat;
+  font-family: Montserrat, Merriweather, Arial, sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
   color: #FFF;
@@ -65,8 +65,6 @@ h1 {
   text-align: center;
   margin-top: 600px;
 }
-
-
 
 #tour-page {
   background-color: grey;
@@ -152,16 +150,15 @@ h3 {
 }
 
 
-
-
 #merch-page {
-  background-color: #001836;
+  background-color: #3d3d3d;
   background-image: url('../images/merch.jpg');
   height: 800px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   justify-content: center;
+  overflow-y: auto;
 }
 
 .merch-container {
@@ -177,7 +174,6 @@ h3 {
   margin: auto;
   flex-wrap: wrap;
   width: 100%;
-
 }
 
 .flex-container img {
@@ -215,7 +211,6 @@ h3 {
   opacity: 1;
 }
 
-
 .merch-text {
   background-color: #000;
   text-align: center;
@@ -227,12 +222,8 @@ h3 {
 }
 
 
-
-
-
-
 #about-page {
-  background-color: blue;
+  background-color: #3d3d3d;
   background-image: url('../images/about.jpg');
   height: 800px;
   background-position: center;
@@ -246,16 +237,14 @@ h3 {
   width: 90%;
 }
 
-
 .text-box {
   background-color: rgb(0, 0, 0, 0.6);
   width: 80%;
   height: auto;
-
 }
 
 h4 {
-  font-family: Montserrat, Arial, sans-serif;
+  font-family: Montserrat, Merriweather,Arial, sans-serif;
   text-transform: uppercase;
   color: #fff;
   text-align: center;
@@ -267,7 +256,7 @@ h4 {
 
 p {
   font-family: Merriweather, Arial, sans-serif;
-  font-size: 1.5vw;
+  font-size: 1vw;
   color: #FFF;
   text-decoration: none;
   padding: 80px;
@@ -277,10 +266,8 @@ p {
 }
 
 
-
-
 #connect-page {
-  background-color: blue;
+  background-color: #3d3d3d;
   background-image: url('../images/contact.jpg');
   height: 600px;
   background-position: center;
@@ -320,7 +307,10 @@ input[type=email] {
   text-align: center;
   font-size: 15px;
   margin-top: 30px;
+}
 
+input::placeholder{
+  color: #FFF;
 }
 
 input[type=submit] {
@@ -339,13 +329,12 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: grey;
+  background-color: #ff7803;
 }
 
 
-
 footer {
-  background-color: black;
+  background-color: #000;
   height: auto;
 }
 
@@ -380,11 +369,10 @@ footer {
   width: 20%;
 }
 
-
-#copyright{
+#copyright {
   margin-bottom: 10px;
   margin-top: 0;
-  border:0;
+  border: 0;
   letter-spacing: 1px;
   text-align: center;
   padding: 0;
@@ -487,7 +475,6 @@ footer {
   header {
     height: 481px;
     max-width: 768px;
-  
   }
 
   .logo img {
@@ -564,14 +551,6 @@ footer {
   }
 
 
-
-
-
-
-
-
-
-
   #merch-page {
     height: 668px;
     max-width: 768px;
@@ -607,16 +586,11 @@ footer {
   }
 
 
-
-
-
-
-
   #about-page {
     height: 668px;
     max-width: 768px;
   }
-  
+
   .about-container {
     padding-top: 0px;
     margin: auto;
@@ -627,22 +601,16 @@ footer {
   .text-box {
     width: 90%;
     height: 600px;
-  
   }
 
   p {
     font-size: 15px;
   }
 
-
-
-
-
   #connect-page {
     background-image: url('../images/contact.jpg');
     height: 481px;
     max-width: 768px;
-
   }
 
   .connect-container {
@@ -666,28 +634,19 @@ footer {
   }
 
 
-
-
-
-
   footer {
     background-color: black;
     height: 400px;
   }
 
-  
   #footer-logo {
     width: 30%;
   }
-
-
-
 }
 
 
-
 @media only screen and (max-width: 500px) {
-   header {
+  header {
     height: 700px;
     background-image: url('../images/home_500px.jpg');
     max-width: 500px;
@@ -702,7 +661,6 @@ footer {
     padding-left: 10px;
   }
 
-
   #text-logo {
     font-size: 190%;
     text-align: center;
@@ -710,26 +668,25 @@ footer {
   }
 
 
-
   #tour-page {
     height: 500px;
     max-width: 500px;
     background-color: #000;
     background-image: none;
+    overflow-x:scroll;
   }
 
   h2 {
-    font-size: 20px;
-    letter-spacing: 2px;
+    font-size: 25px;
+    letter-spacing: 1px;
     text-align: center;
-   
-   
   }
 
   .tour-container {
     padding-top: 15vw;
     margin: auto;
     width: 90%;
+    overflow-x:scroll;
   }
 
   .dates {
@@ -745,16 +702,15 @@ footer {
   tbody {
     display: flex;
     flex-direction: row;
-}
+  }
 
   tr {
-      display: flex;
-      flex-direction: column;
-      padding-top: 10%;
-    
+    display: flex;
+    flex-direction: column;
+    padding-top: 10%;
   }
-  
-  .padding-left{
+
+  .padding-left {
     padding-left: 0px;
     margin-top: 10px;
   }
@@ -764,43 +720,40 @@ footer {
     text-align: left;
     font-size: 25px;
     text-decoration: none;
-    width:10px;
-    margin-left: -60px;
+    width: 10px;
+    margin-left: -120px;
   }
 
   #venue {
-    margin:0;
-    padding:0;
-    width:10px;
+    margin: 0;
+    padding: 0;
+    width: 10px;
   }
-  #city{
-    margin:0;
-    padding:0;
+
+  #city {
+    margin: 0;
+    padding: 0;
   }
-  
-  #city > td{
+
+  #city>td {
     text-align: left;
-    padding-left: 20px;
+    padding-left: 5px;
     margin-top: 50px;
     font-size: 10px;
-
   }
 
-  #venue > td{
+  #venue>td {
     text-align: left;
     padding-left: 10px;
     margin-top: 50px;
-    width:100px;
+    width: 100px;
     font-size: 10px;
   }
-
-
-
 
   .button {
     padding: 10px 0 0 0;
     width: 100%;
-    margin:0;
+    margin: 0;
   }
 
   .button-container {
@@ -809,18 +762,10 @@ footer {
   }
 
   h3 {
-    font-size: 20px;
+    font-size: 15px;
     letter-spacing: 2px;
-    width:100%;
+    width: 100%;
   }
-
-
-
-
-
-
-
-
 
 
   #merch-page {
@@ -828,7 +773,6 @@ footer {
     max-width: 500px;
     background-color: #000;
     background-image: none;
-
   }
 
   .merch-container {
@@ -847,7 +791,6 @@ footer {
     display: flex;
   }
 
-
   .container {
     position: relative;
     width: 50%;
@@ -860,22 +803,13 @@ footer {
   }
 
 
-
-
-
-
-
-
-
-
-
   #about-page {
     height: 900px;
     max-width: 500px;
     background-color: #000;
     background-image: none;
   }
-  
+
   .about-container {
     padding-top: 0px;
     margin: auto;
@@ -886,22 +820,18 @@ footer {
   .text-box {
     width: 90%;
     height: 700px;
-  
   }
 
   p {
     font-size: 15px;
-    padding:5vw;
+    padding: 5vw;
   }
-
-
 
 
   #connect-page {
     background-image: url('../images/contact_500px.jpg');
     height: 700px;
     max-width: 500px;
-
   }
 
   .connect-container {
@@ -912,7 +842,7 @@ footer {
   .newsletter-box {
     background-color: transparent;
     width: 100%;
-    height:auto;
+    height: auto;
   }
 
   #connect-page h2 {
@@ -921,25 +851,34 @@ footer {
     padding-top: 370px;
     padding-bottom: 30px;
   }
-  #email-field{
-    margin:0;
+
+  #email-field {
+    margin: 0;
     width: 70%;
   }
-  #sign-up{
-    margin-top:10px;
+
+  #sign-up {
+    margin-top: 10px;
     width: 60%;
   }
+
   .social-media-links>li {
     font-size: 25px;
     padding: 2px;
   }
 
-
-
-  #footer-logo {
-      width: 35%;
+  footer {
+    height: 300px;
+    width: auto;
   }
 
-
-
+  #footer-logo {
+    width: 35%;
+  }
+  #copyright {
+    margin-bottom:10px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 8px;
+  }
 }
