@@ -52,13 +52,6 @@ a:hover {
   color: #ff7803;
 }
 
-
-.sticky {
-
-  top: 0;
-  width: 100%;
-}
-
 h1 {
   font-family: Montserrat;
   text-transform: uppercase;
@@ -132,7 +125,7 @@ td {
   border-top: 1px solid black;
 }
 
-.ticket-button {
+.button {
   width: 400px;
   height: 100px;
   padding: 10px;
@@ -345,7 +338,9 @@ input[type=submit] {
   font-size: 20px;
 }
 
-
+input[type=submit]:hover {
+  background-color: grey;
+}
 
 
 
@@ -458,7 +453,7 @@ footer {
     border-top: 1px solid black;
   }
 
-  .ticket-button {
+  .button {
     padding-top: 10%;
   }
 
@@ -554,7 +549,7 @@ footer {
     border-top: 1px solid black;
   }
 
-  .ticket-button {
+  .button {
     padding-top: 5%;
   }
 
@@ -802,7 +797,7 @@ footer {
 
 
 
-  .ticket-button {
+  .button {
     padding: 10px 0 0 0;
     width: 100%;
     margin:0;
