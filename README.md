@@ -4,7 +4,7 @@
 ## About
 Crashing Cords is a website for the indie-rockband Crashing Cords. The site will be targeted towards fans of the band who want to find official information and it will work as a gathering of relevant data, for example access to tour tickets, merch and social media links. The website will be useful for fans who want to find the latest news about the band. It is also valuable for the band to provide their fans with information, create a stronger brand, grow their fanbase and sell more tickets and merch.
 
-![Responsive Mockup]()
+![Responsive Mockup](https://github.com/lisalindqvist95/proj1/blob/main/media/mockup_responsive.png)
 
 ## Features
 - __Navigation Bar__
@@ -13,13 +13,13 @@ Crashing Cords is a website for the indie-rockband Crashing Cords. The site will
   - When the user hovers over a link it changes color which helps the user know that it’s a link that will take them to a different part of the website. 
   - The navigation bar is fully responsive to be accessible on all devices. 
 
- ![Nav Bar]()
+ ![Nav Bar](https://github.com/lisalindqvist95/proj1/blob/main/media/navbar.png)
 
 - __The Landing Page__
 
   - The landing page image includes a concert photo of the band and logo to let the user know that they have found the right page and to improve brand awareness for the band. The logo can be found in the lefthand corner and middle of the landing page to grab the users attention when the first visit the site.
 
- ![Landing Page]()
+ ![Landing Page](https://github.com/lisalindqvist95/proj1/blob/main/media/landing_page.png)
 
 - __The Tour Dates Section__
 
@@ -28,7 +28,7 @@ Crashing Cords is a website for the indie-rockband Crashing Cords. The site will
   - This part of the website is useful for the people who want to buy tickets to see the band and also useful for the band to sell more concert tickets. 
   - This section is updated when the date for a concert has passed.
 
- ![Tour Dates]()
+ ![Tour Dates](https://github.com/lisalindqvist95/proj1/blob/main/media/tour_dates.png)
 
 - __The Merch Section__
  
@@ -37,13 +37,13 @@ Crashing Cords is a website for the indie-rockband Crashing Cords. The site will
   - This section is updated when the band releases new albums or merch. 
   - This section provides information about the merch for fans who did not know that the band had a merch shop. This is also valuable for the band to sell more items, which is a big part of their revenue. 
 
- ![Merch]()
+ ![Merch](https://github.com/lisalindqvist95/proj1/blob/main/media/merch.png)
 
 - __The About Section__
   
   - The About Section will provide new fans who visit the site with a sense of what the band is about and their history. This section will improve brand awareness for old and new fans. 
 
- ![About]()
+ ![About](https://github.com/lisalindqvist95/proj1/blob/main/media/about.png)
 
 - __The Connect Section__
 
@@ -51,7 +51,7 @@ Crashing Cords is a website for the indie-rockband Crashing Cords. The site will
   - The user is asked to enter their e-mail adress in order to sign up. 
   - The newsletter will also make fans feel more connected to the band. 
  
- ![Connect]()
+ ![Connect](https://github.com/lisalindqvist95/proj1/blob/main/media/connect.png)
 
 - __The Footer__
 
@@ -59,7 +59,7 @@ Crashing Cords is a website for the indie-rockband Crashing Cords. The site will
   - The social media links are placed in order of importance for the band, from left to right. Spotify and Youtube comes first as they are places where the user can stream their music. The next icons are placed in order of which platforms the band are the most active on. 
   - The footer also includes a logo, copyright info and an e-mail to the record label for business inquiries. 
 
- ![Footer]()
+ ![Footer](https://github.com/lisalindqvist95/proj1/blob/main/media/footer.png)
 
  ### Possible Features to Implement
 
