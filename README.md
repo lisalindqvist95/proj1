@@ -1,4 +1,4 @@
-Viev live project here
+[View live project here](https://lisalindqvist95.github.io/proj1/)
 
 # Crashing Cords
 ## About
@@ -107,12 +107,40 @@ Crashing Cords is a website for the indie-rockband Crashing Cords. The site will
 
 ## Unfixed Bugs
   - __Form function__
-   - At the moment the form does not store any data like it should. The form-buttton only takes the user to a HTML-document. This could be fixed with some back-end coding that is not part of this project. 
+    - At the moment the form does not store any data like it should. The form-buttton only takes the user to a HTML-document. This could be fixed with some back-end coding that is not part of this project. It might also be unnecessary to take the user to a comepletly new page, getting a confirmation on the same page would make the user experience better.
+  
+  - __Links__
+    - All links in the merch- and tour-section takes the user to the same page since there is no existing merch or ticket to link to, becuase of the fictional band.
+
+  - __Widows and Orphans__
+    - With responsive design and the users ability to resize their displayed window, the occurence of a single word at the end or beginning of a paragraph is almost unavoidable. Even if this is a typography error that decreases readability and looks aesthetically unappealing there is not much to to except if you put a specific width and size to the paragraph, but this would make the site less responsive. To avoid a single word being left at the end of the text in the about-section the code "&nbsp;" was added in the html-file between the last two words before each break in the paragraph. However, this decreases the readability of html-file and makes it more difficult to edit so it is not an optimal solution.
+
 
 ## Deployment
+  - The site was created via GitPod an deployed to GitHub pages using the following steps: 
+    - The material is added and pushed to GitHub via GitPod
+    - In the GitHub repository go to the settings tab above the code
+    - In the settings tab navigate to pages
+    - Fill in the source Deploy from a branch and choose "main" and save
+    
+## Credits
 
+### Content
 
+  - The icons in the footer are from [Font Awesome](https://fontawesome.com/)
+  - Flex container example code came from [w3schools](https://www.w3schools.com/css/tryit.asp?filename=trycss3_flexbox_flex-wrap_wrap)
+  - Center aligning elements code dame from [w3schools](https://www.w3schools.com/cssref/tryit.php?filename=trycss3_align-items)
+  - Image hover effect came from [w3schools](https://www.w3schools.com/howto/howto_css_image_overlay.asp)
+  - Help with fixing Input field color came from this [stack overflow article](https://stackoverflow.com/questions/6669846/css-input-field-text-color-of-inputted-text)
+  - Help to convert a horizontal table inte a vertical table came from this [stack overflow article](https://stackoverflow.com/questions/67023112/convert-a-horizontal-table-into-vertical-with-css)
+  - Help to resolve Google Fonts not working in Safari came from this [stack overflow article](https://stackoverflow.com/questions/24061808/google-font-not-working-on-safari)
+  - Help on how to remove widows came from this [Techstacher article](https://techstacker.com/how-to-remove-text-widows-orphans-web-typography/)
 
+ 
+### Media
+   - The photos used on the site and merch were taken from [Unsplash](https://unsplash.com/)
+   - The images used for mockups were taken from [AdobeStock](https://stock.adobe.com/)
+   
 
 
 
