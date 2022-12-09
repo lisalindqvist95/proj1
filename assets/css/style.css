@@ -60,7 +60,7 @@ h1 {
   color: #FFF;
   text-decoration: none;
   font-style: italic;
-  font-weight:900;
+  font-weight: 900;
 }
 
 #text-logo {
@@ -102,7 +102,6 @@ h2 {
   margin: auto;
   width: 90%;
   text-align: center;
-  
 }
 
 .dates {
@@ -218,6 +217,7 @@ h3 {
 .container:hover .middle {
   opacity: 1;
 }
+
 /* End of code from w3scools */
 
 .merch-text {
@@ -253,9 +253,11 @@ h3 {
 }
 
 h4 {
-  font-family: 'Montserrat', 'Merriweather',Arial, sans-serif;
+  font-family: 'Montserrat', 'Merriweather', Arial, sans-serif;
   text-transform: uppercase;
   color: #fff;
+  font-style: italic;
+  font-weight: 900;
   text-align: center;
   letter-spacing: 1px;
   padding-top: 10%;
@@ -310,7 +312,7 @@ input[type=email] {
   font-family: 'Merriweather', Arial, sans-serif;
   letter-spacing: 1px;
   border-style: dotted;
-  color:#FFF;
+  color: #FFF;
   width: 300px;
   padding: 15px;
   background-color: #000;
@@ -319,7 +321,7 @@ input[type=email] {
   margin-top: 30px;
 }
 
-input::placeholder{
+input::placeholder {
   color: #FFF;
 }
 
@@ -327,7 +329,7 @@ input[type=submit] {
   margin-top: 20px;
   padding: 0.75rem;
   background-color: #FFF;
-  color:#000;
+  color: #000;
   border: none;
   border-radius: 5px;
   text-transform: uppercase;
@@ -398,25 +400,26 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  height:100vh;
+  height: 100vh;
 }
 
 .text-container {
-  padding:10px;
+  padding: 10px;
   margin-top: 200px;
   width: 650px;
   text-align: center;
   border: 6px solid #FFF;
 }
-.text-container > h1 {
-font-size: 60px;
+
+.text-container>h1 {
+  font-size: 60px;
 }
 
-.return-button{
+.return-button {
   margin: 10px;
 }
 
-.return-button > a{
+.return-button>a {
   text-align: center;
   font-size: 15px;
   border-bottom: 2px solid #FFF;
@@ -427,12 +430,13 @@ font-size: 60px;
   letter-spacing: 2px;
 }
 
-.text-contaimer > .button-container{
-  padding:0;
+.text-contaimer>.button-container {
+  padding: 0;
   height: 30px;
 }
-.text-contaimer > .button{
-  padding:0;
+
+.text-contaimer>.button {
+  padding: 0;
   height: 30px;
 }
 
@@ -442,6 +446,8 @@ font-size: 60px;
 
 /* Media with a screen of max-width 1124px */
 @media only screen and (max-width: 1124px) {
+  /* Header */
+
   header {
     height: 700px;
     max-width: 1124px;
@@ -453,6 +459,7 @@ font-size: 60px;
     margin-top: 500px;
   }
 
+  /* Tour-section */
   #tour-page {
     height: 700px;
     max-width: 1124px;
@@ -501,8 +508,6 @@ font-size: 60px;
     border-top: 1px solid black;
   }
 
- 
-
   .button-container {
     margin: auto;
     width: 100%;
@@ -513,10 +518,11 @@ font-size: 60px;
     letter-spacing: 2px;
   }
 
+  /* Merch-section */
   #merch-page {
     height: 1000px;
-
   }
+
   .container {
     position: relative;
     width: 30%;
@@ -528,7 +534,7 @@ font-size: 60px;
     font-size: 15px;
   }
 
-
+  /* About-section */
   #about-page {
     height: 800px;
     max-width: 1124px;
@@ -538,6 +544,7 @@ font-size: 60px;
     font-size: 1.7vw;
   }
 
+  /* Footer */
   #footer-logo {
     width: 30%;
   }
@@ -545,6 +552,8 @@ font-size: 60px;
 
 /* Media with a screen of max-width 800px */
 @media only screen and (max-width: 800px) {
+
+  /* Header */
   header {
     height: 481px;
     max-width: 800px;
@@ -560,6 +569,7 @@ font-size: 60px;
     margin-top: 320px;
   }
 
+  /* Tour-section */
   #tour-page {
     height: 481px;
     max-width: 800px;
@@ -623,11 +633,10 @@ font-size: 60px;
     letter-spacing: 2px;
   }
 
-
+  /* Merch-section */
   #merch-page {
     height: 668px;
     max-width: 800px;
-
   }
 
   .merch-container {
@@ -647,7 +656,6 @@ font-size: 60px;
     display: flex;
   }
 
-
   .container {
     position: relative;
     width: 30%;
@@ -659,7 +667,7 @@ font-size: 60px;
     font-size: 10px;
   }
 
-
+  /* About-section */
   #about-page {
     height: 668px;
     max-width: 800px;
@@ -681,6 +689,7 @@ font-size: 60px;
     font-size: 15px;
   }
 
+  /* Connect-section */
   #connect-page {
     background-image: url('../images/contact.jpg');
     height: 481px;
@@ -707,7 +716,7 @@ font-size: 60px;
     font-size: 25px;
   }
 
-
+  /* Footer */
   footer {
     background-color: black;
     height: 400px;
@@ -718,13 +727,16 @@ font-size: 60px;
     width: 30%;
   }
 
-  .text-container > h1 {
-  font-size: 40px;
+  /* Confirmation-page */
+  .text-container>h1 {
+    font-size: 40px;
   }
 }
 
 /* Media with a screen of max-width 500px */
 @media only screen and (max-width: 500px) {
+
+  /* Header */
   header {
     height: 630px;
     background-image: url('../images/home_500px.jpg');
@@ -752,7 +764,7 @@ font-size: 60px;
     margin-top: 500px;
   }
 
-
+  /* Tour-section */
   #tour-page {
     height: 400px;
     max-width: 500px;
@@ -817,7 +829,7 @@ font-size: 60px;
   }
 
   #city {
-    margin-left:-10px;
+    margin-left: -10px;
     padding: 0;
   }
 
@@ -853,9 +865,9 @@ font-size: 60px;
     width: 100%;
   }
 
-
+  /* Merch-section */
   #merch-page {
-    height: 1200px;
+    height: 1300px;
     max-width: 500px;
     background-color: #000;
     background-image: none;
@@ -864,7 +876,7 @@ font-size: 60px;
   .merch-container {
     padding-top: 15vw;
     margin: auto;
-    width: 80%;
+    width: 70%;
   }
 
   .flex-container {
@@ -888,7 +900,7 @@ font-size: 60px;
     font-size: 10px;
   }
 
-
+  /* About-section */
   #about-page {
     height: 700px;
     max-width: 500px;
@@ -908,8 +920,8 @@ font-size: 60px;
     height: 700px;
   }
 
-  h4{
-    padding:10px;
+  h4 {
+    padding: 10px;
   }
 
   p {
@@ -919,7 +931,7 @@ font-size: 60px;
     text-align: left;
   }
 
-
+  /* Connect-section */
   #connect-page {
     background-image: url('../images/contact_500px.jpg');
     height: 700px;
@@ -959,6 +971,7 @@ font-size: 60px;
     padding: 2px;
   }
 
+  /* Footer */
   footer {
     height: 300px;
     width: auto;
@@ -967,14 +980,32 @@ font-size: 60px;
   #footer-logo {
     width: 35%;
   }
+
   #copyright {
-    margin-bottom:10px;
+    margin-bottom: 10px;
     text-align: center;
     margin-top: 20px;
     font-size: 8px;
   }
 
-  .text-container > h1 {
+  /* Confirmation-page */
+  .text-container>h1 {
     font-size: 30px;
-    }
+  }
+}
+
+/* Media with a screen of max-width 300px */
+@media only screen and (max-width: 300px) {
+
+  /* Merch-section */
+  #merch-page {
+    height: 1050px;
+    max-width: 300px;
+  }
+
+  /* About-section */
+  #about-page {
+    height: 800px;
+    max-width: 300px;
+  }
 }
