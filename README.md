@@ -101,12 +101,13 @@ Crashing Cords is a website for the indie-rockband Crashing Cords. The site will
 
 ### Validator Testing 
   - HTML
-   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/#textarea)
+    - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/#textarea)
  - CSS
-   - No errors were found when passing through the official [(Jigsaw) validator]()
+    - No errors were found when passing through the official [(Jigsaw) validator]()
 
 ## Unfixed Bugs
-
+  - __Form function__
+   - At the moment the form does not store any data like it should. The form-buttton only takes the user to a HTML-document. This could be fixed with some back-end coding that is not part of this project. 
 
 ## Deployment
 
