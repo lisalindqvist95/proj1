@@ -10,14 +10,14 @@ Crashing Cords is a website for the indie-rockband Crashing Cords. The site will
 - __Navigation Bar__
  
   - The navigation bar at the top of the landing page gives the user a grasp of the website structure and is helpful for the user to immediately navigate to the part of the website that they want to visit, without having to scroll. 
-  - When the user hovers over a link it changes color which helps the user know that it’s a link that will take them to a different part of the website. 
+  - When the user hovers over a link it changes color which helps the user to know that it’s a link that will take them to a different part of the website. 
   - The navigation bar is fully responsive to be accessible on all devices. 
 
  ![Nav Bar](https://github.com/lisalindqvist95/proj1/blob/main/media/navbar.png)
 
 - __The Landing Page__
 
-  - The landing page image includes a concert photo of the band and logo to let the user know that they have found the right page and to improve brand awareness for the band. The logo can be found in the lefthand corner and middle of the landing page to grab the users attention when the first visit the site.
+  - The landing page image includes a concert photo of the band and logo to let the user know that they have found the right page and to improve brand awareness for the band. The logo can be found in the lefthand corner and middle of the landing page to grab the users attention when they first visit the site.
 
  ![Landing Page](https://github.com/lisalindqvist95/proj1/blob/main/media/landing_page.png)
 
@@ -33,7 +33,7 @@ Crashing Cords is a website for the indie-rockband Crashing Cords. The site will
 - __The Merch Section__
  
   - The Merch Section provides a selection of the merch and albums that the band is currently selling. 
-  - If the user hovers over a picture they will get information about what is sold and the price, the text also provides a link to buy the item. To find more available march there is also a link to the official march store. 
+  - If the user hovers over a picture they will get information about what is sold and the price, the text also provides a link to buy the item. To find more available merch there is also a link to the official merch store. 
   - This section is updated when the band releases new albums or merch. 
   - This section provides information about the merch for fans who did not know that the band had a merch shop. This is also valuable for the band to sell more items, which is a big part of their revenue. 
 
@@ -77,8 +77,8 @@ Crashing Cords is a website for the indie-rockband Crashing Cords. The site will
 
 - __Navigation__
 
-  - A feature that could improve is the navbar which should stay at the top of the page when the user scrolls down to improve the user experience. It could also be hamburger-menu on smaller screens so that it woulndt take up as much space.
-  - The navbar could contain a dropdown menu with direct links to the official site for tickets and merch, in order for the user to get to those sites faster if they want.
+  - A feature that could improve is the navbar which should stay at the top of the page when the user scrolls down to improve the user experience. It could also be hamburger-menu on smaller screens so that it wouldn't take up as much space.
+  - The navbar could contain a dropdown menu with direct links to the official site for tickets and merch, in order for the user to get to those sites easier if they want.
 
 ## Testing
 
@@ -94,26 +94,29 @@ Crashing Cords is a website for the indie-rockband Crashing Cords. The site will
 
   - The website is tested on the commonly used browsers: Chrome, Safari, Edge, Firefox and Opera. 
   - There was a problem in Firefox where the placeholder text in the form-field wouldn't show. This was fixed by changing the color in the CSS-file. 
-  - In Safari there was an issue with the google fonts that would not load. This was fixed by adding the font-weight and font-family to the textelement in the CSS-file.
+  - In Safari there was an issue with the Google Fonts that would not load. This was fixed by adding the font-weight and font-family to the text element in the CSS-file.
 
 - __Possible bugs__
   - There could be possible bugs in browsers that have not been tested, specifically older browsers like Internet Explorer, for example [w3schools](https://www.w3schools.com/cssref/tryit.php?filename=trycss3_align-items) notes that Internet Explorer 10 and earlier versions does not support the proberty of "align-items". Older versions of browsers are not as commonly used, Internet Explorer 10 is also discontinued, so this would not cause issues for the majority of users of the site. 
 
 ### Validator Testing 
   - HTML
-    - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/#textarea)
+    - No errors were returned from testing the HTML via the official [W3C validator](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Flisalindqvist95.github.io%2Fproj1%2Findex.html)
  - CSS
-    - No errors were found when passing through the official [(Jigsaw) validator]()
+    - No errors were returned from testing the CSS via the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Flisalindqvist95.github.io%2Fproj1%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv)
 
 ## Unfixed Bugs
   - __Form function__
-    - At the moment the form does not store any data like it should. The form-buttton only takes the user to a HTML-document. This could be fixed with some back-end coding that is not part of this project. It might also be unnecessary to take the user to a comepletly new page, getting a confirmation on the same page would make the user experience better.
+    - At the moment the form does not store any data like it should. The form-buttton only takes the user to an HTML-document. This could be fixed with some back-end coding that is not part of this project. It might also be unnecessary to take the user to a comepletly new page, getting a confirmation on the same page would make the user experience better.
   
   - __Links__
     - All links in the merch- and tour-section takes the user to the same page since there is no existing merch or ticket to link to, becuase of the fictional band.
 
   - __Widows and Orphans__
-    - With responsive design and the users ability to resize their displayed window, the occurence of a single word at the end or beginning of a paragraph is almost unavoidable. Even if this is a typography error that decreases readability and looks aesthetically unappealing there is not much to to except if you put a specific width and size to the paragraph, but this would make the site less responsive. To avoid a single word being left at the end of the text in the about-section the code "&nbsp;" was added in the html-file between the last two words before each break in the paragraph. However, this decreases the readability of html-file and makes it more difficult to edit so it is not an optimal solution.
+    - With responsive design and the users ability to resize their displayed window, the occurence of a single word at the end or beginning of a paragraph is almost unavoidable. Even if this is a typography error that decreases readability and looks aesthetically unappealing there is not much to do except if you put a specific width and size to the paragraph, but this would make the site less responsive. To avoid a single word being left at the end of the text in the about-section the code "&nbsp;" was added in the html-file between the last two words before each break in the paragraph. However, this decreases the readability of html-file and makes it more difficult to edit so it is not an optimal solution.
+  
+  - __-ms-transform__
+    - As a warning in the CSS-valditation test it was noted that the property of "-ms-transform" was not recognized. This is part of a code from w3schools which is a trusted website. Therefore this warning was left without fixing because I belive it makes the animation work for Internet Explorer and without it the bug would be that the animation does not work in Internet Explorer. 
 
 
 ## Deployment
